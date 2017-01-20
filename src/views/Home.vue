@@ -1,16 +1,16 @@
 <template>
     <section id="home" class="page">
-        <splash></splash>
+        <counter></counter>
     </section>
 </template>
 
 <script>
-    import Splash from 'components/Splash'
+    import Counter from 'components/Counter'
 
     export default {
         name: 'Home',
         components: {
-            Splash
+            Counter
         }
     }
 </script>
