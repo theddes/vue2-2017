@@ -1,0 +1,6 @@
+{
+    "extends": "vue",
+    "rules": {
+        "indent": ["error", 4]
+    }
+}

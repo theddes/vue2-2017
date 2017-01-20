@@ -1,0 +1,7 @@
+/* Primary router transition */
+.transition-router-enter-active, .transition-router-leave-active {
+    transition: opacity .3s;
+}
+.transition-router-enter, .transition-router-leave-to {
+    opacity: 0;
+}

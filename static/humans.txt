@@ -1,0 +1,19 @@
+# CENTURIA WEB TEAM
+
+    Timo Heddes -- Developer
+    Jonas Carinhas -- Project Manager
+    S. -- Muse
+    P. -- Muse
+
+# THANKS
+
+    Centuria members
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, ES6
+    SASS, PostCSS
+    VueJS, Greensock
+    NodeJS, MySQL, PHP
+
+# This website is a PWA (Progressive Web App) and SPA (Single Page App)! :)

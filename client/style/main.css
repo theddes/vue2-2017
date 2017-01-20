@@ -1,0 +1,35 @@
+@import 'reset.css';
+@import 'forms.css';
+@import 'typography.css';
+@import 'transitions.css';
+
+* {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    text-rendering: geometricPrecision;
+}
+
+html {
+    font-size: 15px;
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    background: white;
+    color: #5b5c5e;
+    cursor: default;
+    font-family: 'Nunito';
+    height: 100%;
+}
+
+::selection {
+    color: #333;
+    background: #f5da9c;
+}
+
+#app {
+    backface-visibility: hidden;
+    min-height: 100vh;
+}
