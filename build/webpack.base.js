@@ -8,7 +8,7 @@ const _ = require('./utils')
 
 module.exports = {
     entry: {
-        client: './client/index.js'
+        client: './src/index.js'
     },
     output: {
         path: _.outputPath,
@@ -21,14 +21,14 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.vue', '.css', '.json'],
         alias: {
-            root: path.join(__dirname, '../client'),
-            components: path.join(__dirname, '../client/components')
+            root: path.join(__dirname, '../src'),
+            components: path.join(__dirname, '../src/components')
         },
         modules: [
             _.cwd('node_modules'),
             // this meanse you can get rid of dot hell
             // for example import 'components/Foo' instead of import '../../components/Foo'
-            _.cwd('client')
+            _.cwd('src')
         ]
     },
     module: {

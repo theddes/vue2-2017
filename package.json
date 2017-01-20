@@ -2,12 +2,11 @@
   "name": "vuestarter",
   "version": "0.1.0",
   "description": "Vue starter 2017",
-  "main": "client/index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo lol",
     "build": "webpack --config build/webpack.prod.js",
     "dev": "node build/server.js",
-    "lint": "eslint client/* --ext .js --ext .vue"
+    "lint": "eslint src/* --ext .js --ext .vue"
   },
   "author": "theddes",
   "license": "MIT",
