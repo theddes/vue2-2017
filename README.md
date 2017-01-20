@@ -13,7 +13,7 @@ $ yarn dev
 # build for production
 $ yarn build
 # lint your code
-$ $ yarn lint
+$ yarn lint
 ```
 
 ### pre-rendering
